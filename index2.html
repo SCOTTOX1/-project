@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<title>UCSI Food Ordering Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Bradley Hand", cursive}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="UCSI_logo"><a href="index.html" class="UCSI University"><img src="images/UCSI Logo.png" alt="UCSI Logo" style="width:100px"></a></div>
+    <div class="w3-right w3-padding-16"><a href="delivery.html" class="delivery service">Delivery</a></div>
+    <div class="w3-center w3-padding-16">UCSI Food Restaurant</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <a href="https://www.facebook.com/HijaoCoffee/" class="hijaocoffee">
+      <img src="images/hijao coffee.png" alt="Hijao Coffee" style="width:100%">
+      <h3>Hijao Coffee - Block G</h3>
+      <p>Simple but endless aftertaste. Enjoy every bite of our pastry now at Aromas Coffee!.</p></a>
+    </div>
+
+    <div class="w3-quarter">
+      <a href="https://kedai-serbaneka-hop-in-cheras.business.site/" class="hopinshop">
+      <img src="images/Hop In Shop.png" alt="Hop In Shop" style="width:100%">
+      <h3>Hop-In Shop - Block G</h3>
+      <p>In hop-in-shop, we sell varieties of convenient food, drinks, any necessity you can think of.</p></a>
+    </div>
+
+    <div class="w3-quarter">
+      <a href="https://www.ucsiuniversity.edu.my/facilities/kuala-lumpur/retail-facilities" class="hostelcafe">
+      <img src="images/Hostel Cafe.png" alt="Hostel Cafe" style="width:100%">
+      <h3>Hostel Cafe - Block D</h3>
+      <p>UCSI University has many Cafeterias and Food Outlets located throughout the campus which serve a wide selection of popular Malaysian and international food</p>
+    </div>
+
+    <div class="w3-quarter">
+      <a href="https://www.facebook.com/Hot-Roll-UCSI-Cheras-106047360735994/" class="hotandroll">
+      <img src="images/hot and roll.png" alt="Hot and Roll" style="width:100%">
+      <h3>Hot and Roll - Block G</h3>
+      <p>Wholesome Tasty Baked Treats that can be enjoyed anytime, anywhere.</p></a>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <a href="https://vymaps.com/MY/Hua-Yi-Yuan-Chinese-Restaurant-562010940941113/" class="huayiyuan">
+      <img src="images/Hua Yi Yuan.png" alt="Hua Yi Yuan" style="width:100%">
+      <h3>Hua Yi Yuan - Block E</h3>
+      <p>Check out our chinese Restaurant - Hua Yi Yuan. Our on-going promotion would be the Peking Duck</p></a>
+    </div>
+
+    <div class="w3-quarter">
+      <a href="https://m.facebook.com/Juicy-Fresh-Juice-Bar-X-Jinka-122427342481068/?ref=page_internal&mt_nav=0" class="juiceee">
+      <img src="images/Juiceee.png" alt="Juiceee" style="width:100%">
+      <h3>Juiceee - Block A</h3>
+      <p>In Juiceee, we sell a variety of fruit juice that would cater to your satisfaction.</p></a>
+    </div>
+
+    <div class="w3-quarter">
+      <a href="https://foursquare.com/v/ucsi-library-cafeteria/4cf7118d81cd6dcb8bb67f0d" class="librarycafe">
+      <img src="images/Library Cafe.png" alt="Library Cafe" style="width:100%">
+      <h3>Library Cafe - Block B</h3>
+      <p>In our library Cafe, we offers a diverse range of foods. Our signature Nasi Lemak is worth a try. </p></a>
+    </div>
+    <div class="w3-quarter">
+      <a href="https://www.ucsiuniversity.edu.my/facilities/kuala-lumpur/retail-facilities" class="littlemamak">
+      <img src="images/Little Mamak.png" alt="Little Mamak" style="width:100%">
+      <h3>Little Mamak - Block G</h3>
+      <p>At litle mamak, we offers food that will satisfy the taste buds of those malays, definitely worth a try.</p></a>
+    </div>
+  </div>
+
+  <!-- Page number transfer -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="index.html" class="w3-bar-item w3-button w3-hover-black">1</a>
+      <a href="index2.html" class="w3-bar-item w3-black w3-button">2</a>
+      <a href="index3.html" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
