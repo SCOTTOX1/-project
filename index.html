@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<title>UCSI Food Ordering Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Bradley Hand", cursive}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="UCSI_logo"><a href="index.html" class="UCSI University"><img src="images/UCSI Logo.png" alt="UCSI Logo" style="width:100px"></a></div>
+    <div class="w3-right w3-padding-16"><a href="delivery.html" class="delivery service">Delivery</a></div>
+    <div class="w3-center w3-padding-16">UCSI Food Restaurant</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <a href="https://www.ucsihotels.com/lqonline/" class="aromacoffee">
+      <img src="images/aroma_coffee.png" alt="Aroma Coffee" style="width:100%">
+      <h3>Aroma Coffee - Block E</h3>
+      <p>Simple but endless aftertaste. Enjoy every bite of our pastry now at Aromas Coffee!.</p></a>
+      
+    </div>
+    <div class="w3-quarter">
+      <a href="https://www.familymart.com.my/our-stores.html" class="familymart">
+      <img src="images/family_mart.png" alt="Family Mart" style="width:100%">
+      <h3>Family Mart - Block A</h3>
+      <p>At Family Mart, we've combined a dizzying array of store offerings into one single location.</p></a>
+    </div>
+
+    <div class="w3-quarter">
+      <a href="https://www.ucsi1card.com/merchant/another-mealbox" class="anothermealbox">
+      <img src="images/another_mealbox.png" alt="Another Mealbox" style="width:100%">
+      <h3>Another Mealbox Block G</h3>
+      <p>Another mealbox is a stall that sells varieties of lunch box, food sets. We organise events or competitions. Be sure to check it out.</p></a>
+    </div>
+
+    <div class="w3-quarter">
+      <a href="https://www.ucsiuniversity.edu.my/cafeteria" class="cafeteria">
+      <img src="images/cafe.png" alt="Cafe" style="width:100%">
+      <h3>Cafe - Block C</h3>
+      <p>UCSI University has many Cafeterias and Food Outlets located throughout the campus which serve a wide selection of popular Malaysian and international food</p></a>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <a href="https://ucsi1card.com/merchant/aik-kee-bbq-chicken-rice-noodles-house" class="chicken rice">
+      <img src="images/chicken rice.png" alt="Chicken Rice" style="width:100%">
+      <h3>Chicken Rice - Block G</h3>
+      <p>At chicken rice shop, you will get a chance to taste our signature roasted chicken along with aromatic rice.</p></a>
+    </div>
+
+    <div class="w3-quarter">
+      <a href="https://www.easyuni.my/en/advice/never-go-hungry-in-ucsi-2420/" class = CYkitchen>
+      <img src="images/CY Kitchen.png" alt="CY Kitchen" style="width:100%">
+      <h3>CY's Kitchen - Block A</h3>
+      <p>One fun fact about this brand-new food outlet is that it is owned by a student from our university itself. She started off her business by offering only a few dishes and has now expanded the menu to include up to 30 food delights!</p></a>
+    </div>
+    <div class="w3-quarter">
+      <a href="https://www.facebook.com/everydayespresso/" class="everydayespressocafe" >
+      <img src="images/Everyday Espresso Cafe.png" alt="Everyday Espresso Cafe" style="width:100%">
+      <h3>Everyday Espresso Cafe - Block A</h3>
+      <p>Everyday Espresso is one of our favourite spots for having a coffee break between classes. It is also a great choice if you’d like to grab a cup of coffee or some baked delights on-the-go.</p></a>
+    </div>
+    <div class="w3-quarter">
+      <a href="https://www.facebook.com/UCSIHotelKuching/posts/hatton-restaurant-is-your-best-choice-when-planning-small-scale-private-function/684172825345235/" class="hatton">
+      <img src="images/hatton.png" alt="Croissant" style="width:100%">
+      <h3>Hatton - Block E</h3>
+      <p>Hatton Restaurant is your best choice when planning small scale private functions - birthday dinner, family gathering, wedding anniversary, honeymoon and wedding proposals! Scenic river view with maximum capacity of 50 persons.</p></a>
+    </div>
+  </div>
+
+  <!-- Page number transfer -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="index.html" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="index2.html" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="index3.html" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>About Scott</h3><br>
+    <img src="images/scott.png" alt="Me" class="w3-image" style="display:block;margin:auto" width="400" height="300">
+    <div class="w3-padding-32">
+      <h4><b>Intending to do a university food restaurant integrated website!</b></h4>
+      <h6><i>Online Food Ordering Platform</i></h6>
+      <p>This is a one-stop integrated food-ordering website whereby you can access to all Restaurants/marts. You may order them online as well!</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>Contact Us:</h3>
+      <p>scott@gmail.com</p>
+      <p>1002058008@ucsiuniversity.edu.my</p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>Delivery services</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="images/delivereat.png" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Delivereat</span><br>
+          <span>Partnership with Delivereat</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="images/grabfood.png" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Grabfood</span><br>
+          <span>Partnership with Grabfood</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Salmon</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">France</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Flavors</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cuisine</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dressing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fried</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fish</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Duck</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
