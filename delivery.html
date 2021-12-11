@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>UCSI Food Ordering Website</title>
+  <meta charset="UTF-8">
+  <meta name = "viewport" content="width = device- width , initial-scale = 1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section>
+    <div class="container">
+      <div class="UCSI_logo"><a href="index.html" class="UCSI University"><img src="images/UCSI Logo.png" alt="UCSI Logo" style="width:100px"></a></div>
+      <form action="https://formspree.io/f/mnqwqjpk" method="post" id="my-form">
+        <div class="form-group">
+          <label for = "name: ">Name: </label>
+          <input type = "text" id = "name: " name = "name: " placeholder="David">
+        </div>
+
+        <div class="form-group">
+          <label for="email: ">Email: </label>
+          <input type = "email" id="email: " name="email: " placeholder="david@gmail.com">
+        </div>
+
+        <div class="form-group">
+          <label for = "contact: ">Contact: </label>
+          <input type="tel" id = "contact: " name="contact: " placeholder="016-333-2349">
+        </div>
+
+        <div class="form-group">
+          <label for="restaurant: ">Restaurant: </label>
+          <input type="text" id = "restaurant: " name = "restaurant: " placeholder="Aroma Coffee">
+        </div>
+
+        <div class="form-group">
+          <label for="food: ">Food/Drink: </label>
+          <input type="text" id = "food: " name = "food: " placeholder="Waffle, Latte">
+        </div>
+
+        <div class="form-group">
+          <label for = "address: ">Address: </label>
+          <textarea name="address: " id="address: " cols="30" rows="10"></textarea> 
+        </div>
+
+        <button type="submit">Submit: </button>
+      </form>
+      <div id = "status"></div>
+    </div>
+  </section>
+</body>
+</html>
